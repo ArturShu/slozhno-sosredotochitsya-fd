@@ -1,12 +1,40 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+@media (prefers-color-scheme: light) {
+  :root {
+    --image-bg: url(../images/cover-image-light.png);
+    --focus-color: #ffc2e6;
+    --text-color: #353430;
+    --header-text-color: #353430;
+    --menu-text-color: #353430;
+    --h-bg-color: #ff8dcb;
+    --shadow-color: #ff8dcb;
+    --border-color: #353430;
+    --border-color-hover: rgb(50, 49, 45, 0.4);
+    --tips-text-link: #353430;
+    --h2-color: #353430;
+    --h3-color: #353430;
+  }
+
+  :root:not(.theme-dark) .rec {
+    display: none;
+  }
+  
+}
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --image-bg: url(../images/cover-image-light.png);
+  --focus-color: #ffc2e6;
+  --text-color: #353430;
+  --header-text-color: #353430;
+  --menu-text-color: #353430;
+  --h-bg-color: #ff8dcb;
+  --shadow-color: #ff8dcb;
+  --border-color: #353430;
+  --border-color-hover: rgb(50, 49, 45, 0.4);
+  --tips-text-link: #353430;
+  --h2-color: #353430;
+  --h3-color: #353430;
+}
+
+:root.theme-light .rec {
+  display: none;
 }

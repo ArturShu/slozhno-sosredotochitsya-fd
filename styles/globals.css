@@ -20,6 +20,7 @@ h5,
 h6,
 p {
   margin: 0;
+  font-size: var(--p-font-size, 1.125rem);
 }
 
 ul {
