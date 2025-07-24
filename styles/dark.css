@@ -7,7 +7,7 @@
   --h-bg-color: #ff0070;
   --shadow-color: #ff0070;
   --border-color: #ff0070;
-  --border-color-hover: rgb(255, 0, 112, 0.4);
+  --border-color-hover: rgb(255 0 112 / 0.4);
 
   --tips-text-link: #f1b2ce;
   --h2-color: #ff0070;
